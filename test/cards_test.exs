@@ -3,6 +3,7 @@ defmodule CardsTest do
   doctest Cards
 
   test "create_deck makes 20 cards" do
+    #we ussualy create deck with 20 cards in function
     assert Cards.create_deck |> length == 20
   end
 
