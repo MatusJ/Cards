@@ -15,6 +15,9 @@ defmodule Cards do
     end
   end
 
+  @doc """
+    Returns shuffled deck like in classic playing cards game
+  """
   def shuffle(deck) do
     deck |> Enum.shuffle
   end
